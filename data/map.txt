@@ -1,3 +1,8 @@
+
+galaxy "Milky Way"
+	pos 0 0
+	sprite ui/galaxy
+
 system Dergath
 	pos -1369.47 -1041.41
 	government "Daeroris Collective"
@@ -109,7 +114,7 @@ system Elisven
 
 system Farus
 	pos -1241.4 -1130.13
-	government "Faebalar Collective"
+	government "Faebalar Alliance"
 	habitable 425.92
 	link Gil'mine
 	link Seldanna
@@ -230,7 +235,7 @@ system Fenlamin
 
 system Gil'mine
 	pos -1306.35 -1124.26
-	government "Faebalar Collective"
+	government "Faebalar Alliance"
 	habitable 973.36
 	link Gis'cot
 	link Farus
@@ -285,7 +290,7 @@ system Gil'mine
 
 system Gis'cot
 	pos -1397.3 -1179.52
-	government "Faebalar Collective"
+	government "Faebalar Alliance"
 	habitable 2795
 	link Nor'tell
 	link Gil'mine
@@ -395,7 +400,7 @@ system Gylledha
 
 system Illitran
 	pos -1246.76 -1222.01
-	government "Faebalar Collective"
+	government "Faebalar Alliance"
 	habitable 1715
 	link Seldanna
 	asteroids "medium rock" 30 4.08
@@ -519,7 +524,7 @@ system Merith
 
 system Mylaerla
 	pos -1403.48 -1089.62
-	government "Faebalar Collective"
+	government "Faebalar Alliance"
 	habitable 486.68
 	link Soreem
 	link Rosario
@@ -620,7 +625,7 @@ system Nithroel
 
 system Nor'tell
 	pos -1468.24 -1168.37
-	government "Faebalar Collective"
+	government "Faebalar Alliance"
 	habitable 1050.92
 	link Soreem
 	link Gis'cot
@@ -722,7 +727,7 @@ system Rosario
 
 system Seldanna
 	pos -1286.06 -1177.23
-	government "Faebalar Collective"
+	government "Faebalar Alliance"
 	habitable 486.68
 	link Gil'mine
 	link Farus
@@ -761,9 +766,57 @@ system Seldanna
 		distance 3863.35
 		period 4353.96
 
+system Sinyl
+	pos -368.952 -458.279
+	habitable 973.36
+	asteroids "small rock" 2 5.304
+	asteroids "medium rock" 14 3.51
+	asteroids "large rock" 11 3.9
+	asteroids "small metal" 6 2.964
+	asteroids "medium metal" 9 2.223
+	asteroids "large metal" 10 1.989
+	object
+		sprite star/k0
+		distance 51
+		period 13.2076
+		offset 180
+	object
+		sprite star/k0
+		distance 51
+		period 13.2076
+	object
+		sprite planet/cloud5
+		distance 254.44
+		period 52.0357
+	object
+		sprite planet/gas11
+		distance 964.25
+		period 383.891
+		object
+			sprite planet/rock7
+			distance 225
+			period 11.1314
+		object
+			sprite planet/rock3
+			distance 308
+			period 17.828
+	object
+		sprite planet/rock11
+		distance 1414.34
+		period 681.952
+	object
+		sprite planet/gas3
+		distance 1774.78
+		period 958.606
+	object "Reluvethel Wormhole"
+		sprite planet/neptune
+		distance 2180.78
+		period 1305.69
+		offset 359.536
+
 system Soreem
 	pos -1490.78 -1109.5
-	government "Faebalar Collective"
+	government "Faebalar Alliance"
 	habitable 425.92
 	link Nor'tell
 	link Rosario
